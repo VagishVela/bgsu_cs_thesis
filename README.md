@@ -1,10 +1,16 @@
-Thesis
-==============================
+# Thesis
 
 A short description of the project.
 
-Project Organization
-------------
+## Installation
+
+- Run `python -m venv .venv` to create a virtual environment
+- Run `source .venv/bin/activate` to activate the virtual environment
+- Run `pip install -r requirements.txt` to install the dependencies
+- Run `python manage.py migrate` to create the database
+- Run `pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_lg-0.5.1.tar.gz` to install "A full spaCy pipeline for biomedical data with a larger vocabulary and 600k word vectors."
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -51,7 +57,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
---------
+---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
